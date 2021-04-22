@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="It is a video game similar to car game. Your journey is through road without any collition with other">
+    <meta name="keywords" content="game, car game, JavaScript game, box game">
+    <meta name="author" content="Arnab Khan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Passing Game</title>
+    <link rel="stylesheet" href="box-passing-game.css">
+</head>
+<body>
+    <div class="center">
+        <div class="road">
+            
+            <div class="mainroli1"></div>
+            <div class="mainroli2"></div>
+            <div class="mainroli11"></div>
+            <div class="mainroli22"></div>
+            <div class="mydiv"></div>
+            <div class="otdiv"></div>
+            <div class="otdiv"></div>
+            <div class="otdiv"></div>
+            <div class="otdiv"></div>
+            <div class="road1" onclick="road1()"></div>
+            <div class="road2" onclick="road2()"></div>
+            <div class="road3" onclick="road3()"></div>
+        </div>
+        <div class="start" onclick="start()">CLICK HERE TO START GAME<br><br>
+        You can move violet color box by click on the left, right and middle of
+        the road (also by left, right and up keys). Your task is to avoid to 
+        collition with other box.
+        </div>
+        <div class="restart" onclick="restart()">GAME OVER <br> CLICK HERE TO RESTART</div>
+    </div>
+    <div class="score">
+        <div class="cuscore">SCORE:<br>0</div>
+        <div class="hiscore">HIGHT SCORE:<br>0</div>
+        <div class="clear" onclick="clea()">CLEAR HIGHT SCORE</div>
+    </div>
+        
+    </div>
+<script src="box-passing-game.js"></script>
+</body>
+</html>
